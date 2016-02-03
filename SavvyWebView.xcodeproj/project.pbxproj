@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D483C101C61C22A00BE800E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D483C0F1C61C22A00BE800E /* main.m */; };
+		4D483C131C61C22A00BE800E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D483C121C61C22A00BE800E /* AppDelegate.m */; };
+		4D483C161C61C22A00BE800E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D483C151C61C22A00BE800E /* ViewController.m */; };
+		4D483C191C61C22A00BE800E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D483C171C61C22A00BE800E /* Main.storyboard */; };
+		4D483C1B1C61C22A00BE800E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D483C1A1C61C22A00BE800E /* Assets.xcassets */; };
+		4D483C1E1C61C22A00BE800E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D483C1C1C61C22A00BE800E /* LaunchScreen.storyboard */; };
+		4D483C291C61C22A00BE800E /* SavvyWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D483C281C61C22A00BE800E /* SavvyWebViewTests.m */; };
+		4D483C341C61C22A00BE800E /* SavvyWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D483C331C61C22A00BE800E /* SavvyWebViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D483C251C61C22A00BE800E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D483C031C61C22A00BE800E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D483C0A1C61C22A00BE800E;
+			remoteInfo = SavvyWebView;
+		};
+		4D483C301C61C22A00BE800E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D483C031C61C22A00BE800E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D483C0A1C61C22A00BE800E;
+			remoteInfo = SavvyWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D483C0B1C61C22A00BE800E /* SavvyWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavvyWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D483C0F1C61C22A00BE800E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D483C111C61C22A00BE800E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D483C121C61C22A00BE800E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D483C141C61C22A00BE800E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D483C151C61C22A00BE800E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D483C181C61C22A00BE800E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D483C1A1C61C22A00BE800E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D483C1D1C61C22A00BE800E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D483C1F1C61C22A00BE800E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D483C241C61C22A00BE800E /* SavvyWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavvyWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D483C281C61C22A00BE800E /* SavvyWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SavvyWebViewTests.m; sourceTree = "<group>"; };
+		4D483C2A1C61C22A00BE800E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D483C2F1C61C22A00BE800E /* SavvyWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavvyWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D483C331C61C22A00BE800E /* SavvyWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SavvyWebViewUITests.m; sourceTree = "<group>"; };
+		4D483C351C61C22A00BE800E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D483C081C61C22A00BE800E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D483C211C61C22A00BE800E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D483C2C1C61C22A00BE800E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D483C021C61C22A00BE800E = {
+			isa = PBXGroup;
+			children = (
+				4D483C0D1C61C22A00BE800E /* SavvyWebView */,
+				4D483C271C61C22A00BE800E /* SavvyWebViewTests */,
+				4D483C321C61C22A00BE800E /* SavvyWebViewUITests */,
+				4D483C0C1C61C22A00BE800E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D483C0C1C61C22A00BE800E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D483C0B1C61C22A00BE800E /* SavvyWebView.app */,
+				4D483C241C61C22A00BE800E /* SavvyWebViewTests.xctest */,
+				4D483C2F1C61C22A00BE800E /* SavvyWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D483C0D1C61C22A00BE800E /* SavvyWebView */ = {
+			isa = PBXGroup;
+			children = (
+				4D483C111C61C22A00BE800E /* AppDelegate.h */,
+				4D483C121C61C22A00BE800E /* AppDelegate.m */,
+				4D483C141C61C22A00BE800E /* ViewController.h */,
+				4D483C151C61C22A00BE800E /* ViewController.m */,
+				4D483C171C61C22A00BE800E /* Main.storyboard */,
+				4D483C1A1C61C22A00BE800E /* Assets.xcassets */,
+				4D483C1C1C61C22A00BE800E /* LaunchScreen.storyboard */,
+				4D483C1F1C61C22A00BE800E /* Info.plist */,
+				4D483C0E1C61C22A00BE800E /* Supporting Files */,
+			);
+			path = SavvyWebView;
+			sourceTree = "<group>";
+		};
+		4D483C0E1C61C22A00BE800E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D483C0F1C61C22A00BE800E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D483C271C61C22A00BE800E /* SavvyWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D483C281C61C22A00BE800E /* SavvyWebViewTests.m */,
+				4D483C2A1C61C22A00BE800E /* Info.plist */,
+			);
+			path = SavvyWebViewTests;
+			sourceTree = "<group>";
+		};
+		4D483C321C61C22A00BE800E /* SavvyWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D483C331C61C22A00BE800E /* SavvyWebViewUITests.m */,
+				4D483C351C61C22A00BE800E /* Info.plist */,
+			);
+			path = SavvyWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D483C0A1C61C22A00BE800E /* SavvyWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D483C381C61C22A00BE800E /* Build configuration list for PBXNativeTarget "SavvyWebView" */;
+			buildPhases = (
+				4D483C071C61C22A00BE800E /* Sources */,
+				4D483C081C61C22A00BE800E /* Frameworks */,
+				4D483C091C61C22A00BE800E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SavvyWebView;
+			productName = SavvyWebView;
+			productReference = 4D483C0B1C61C22A00BE800E /* SavvyWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D483C231C61C22A00BE800E /* SavvyWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D483C3B1C61C22A00BE800E /* Build configuration list for PBXNativeTarget "SavvyWebViewTests" */;
+			buildPhases = (
+				4D483C201C61C22A00BE800E /* Sources */,
+				4D483C211C61C22A00BE800E /* Frameworks */,
+				4D483C221C61C22A00BE800E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D483C261C61C22A00BE800E /* PBXTargetDependency */,
+			);
+			name = SavvyWebViewTests;
+			productName = SavvyWebViewTests;
+			productReference = 4D483C241C61C22A00BE800E /* SavvyWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D483C2E1C61C22A00BE800E /* SavvyWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D483C3E1C61C22A00BE800E /* Build configuration list for PBXNativeTarget "SavvyWebViewUITests" */;
+			buildPhases = (
+				4D483C2B1C61C22A00BE800E /* Sources */,
+				4D483C2C1C61C22A00BE800E /* Frameworks */,
+				4D483C2D1C61C22A00BE800E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D483C311C61C22A00BE800E /* PBXTargetDependency */,
+			);
+			name = SavvyWebViewUITests;
+			productName = SavvyWebViewUITests;
+			productReference = 4D483C2F1C61C22A00BE800E /* SavvyWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D483C031C61C22A00BE800E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Savvy;
+				TargetAttributes = {
+					4D483C0A1C61C22A00BE800E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z8GK8U8PZ2;
+					};
+					4D483C231C61C22A00BE800E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D483C0A1C61C22A00BE800E;
+					};
+					4D483C2E1C61C22A00BE800E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D483C0A1C61C22A00BE800E;
+					};
+				};
+			};
+			buildConfigurationList = 4D483C061C61C22A00BE800E /* Build configuration list for PBXProject "SavvyWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D483C021C61C22A00BE800E;
+			productRefGroup = 4D483C0C1C61C22A00BE800E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D483C0A1C61C22A00BE800E /* SavvyWebView */,
+				4D483C231C61C22A00BE800E /* SavvyWebViewTests */,
+				4D483C2E1C61C22A00BE800E /* SavvyWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D483C091C61C22A00BE800E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D483C1E1C61C22A00BE800E /* LaunchScreen.storyboard in Resources */,
+				4D483C1B1C61C22A00BE800E /* Assets.xcassets in Resources */,
+				4D483C191C61C22A00BE800E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D483C221C61C22A00BE800E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D483C2D1C61C22A00BE800E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D483C071C61C22A00BE800E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D483C161C61C22A00BE800E /* ViewController.m in Sources */,
+				4D483C131C61C22A00BE800E /* AppDelegate.m in Sources */,
+				4D483C101C61C22A00BE800E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D483C201C61C22A00BE800E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D483C291C61C22A00BE800E /* SavvyWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D483C2B1C61C22A00BE800E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D483C341C61C22A00BE800E /* SavvyWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D483C261C61C22A00BE800E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D483C0A1C61C22A00BE800E /* SavvyWebView */;
+			targetProxy = 4D483C251C61C22A00BE800E /* PBXContainerItemProxy */;
+		};
+		4D483C311C61C22A00BE800E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D483C0A1C61C22A00BE800E /* SavvyWebView */;
+			targetProxy = 4D483C301C61C22A00BE800E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D483C171C61C22A00BE800E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D483C181C61C22A00BE800E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D483C1C1C61C22A00BE800E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D483C1D1C61C22A00BE800E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D483C361C61C22A00BE800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D483C371C61C22A00BE800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D483C391C61C22A00BE800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SavvyWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Savvy.SavvyWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D483C3A1C61C22A00BE800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SavvyWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Savvy.SavvyWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D483C3C1C61C22A00BE800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SavvyWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Savvy.SavvyWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavvyWebView.app/SavvyWebView";
+			};
+			name = Debug;
+		};
+		4D483C3D1C61C22A00BE800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SavvyWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Savvy.SavvyWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavvyWebView.app/SavvyWebView";
+			};
+			name = Release;
+		};
+		4D483C3F1C61C22A00BE800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SavvyWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Savvy.SavvyWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SavvyWebView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D483C401C61C22A00BE800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SavvyWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Savvy.SavvyWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SavvyWebView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D483C061C61C22A00BE800E /* Build configuration list for PBXProject "SavvyWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D483C361C61C22A00BE800E /* Debug */,
+				4D483C371C61C22A00BE800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D483C381C61C22A00BE800E /* Build configuration list for PBXNativeTarget "SavvyWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D483C391C61C22A00BE800E /* Debug */,
+				4D483C3A1C61C22A00BE800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D483C3B1C61C22A00BE800E /* Build configuration list for PBXNativeTarget "SavvyWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D483C3C1C61C22A00BE800E /* Debug */,
+				4D483C3D1C61C22A00BE800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D483C3E1C61C22A00BE800E /* Build configuration list for PBXNativeTarget "SavvyWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D483C3F1C61C22A00BE800E /* Debug */,
+				4D483C401C61C22A00BE800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D483C031C61C22A00BE800E /* Project object */;
+}
